@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none !important;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  padding: 20px 0;
+}
+header .container .head {
+  display: flex;
+  justify-content: space-between;
+}
+header .container .head nav ul {
+  display: flex;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+header .container .head nav ul li a {
+  color: white;
+  font-weight: 500;
+  font-size: small;
+  transition: 0.5s;
+}
+header .container .head nav ul li a:hover {
+  color: rgb(211, 43, 43);
+}
+header .container .head .fa-bars {
+  color: white;
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  header .container .head nav {
+    display: none;
+  }
+  header .container .head .fa-bars {
+    display: block;
+    margin-top: 10px;
+  }
+}
+.sec1 {
+  position: relative;
+}
+.sec1 #carouselExampleCaptions .carousel-inner .carusel .carusel-text .carousel-caption {
+  position: absolute;
+  bottom: 40%;
+}
+.sec1 #carouselExampleCaptions .carousel-inner .carusel .carusel-text .carousel-caption button {
+  border: 1px solid rgb(211, 43, 43);
+  padding: 10px 20px;
+  background-color: transparent;
+  color: white;
+  transition: 0.5s;
+}
+.sec1 #carouselExampleCaptions .carousel-inner .carusel .carusel-text .carousel-caption button:hover {
+  background-color: rgb(211, 43, 43);
+}
+
+@media only screen and (max-width: 767px) {
+  .sec1 #carouselExampleCaptions .carousel-inner .carousel-item {
+    max-width: 100%;
+  }
+}
+.sec2 .container .about::after {
+  content: "";
+  border: 1px solid red;
+  display: block;
+  width: 60px;
+  margin-left: 600px;
+  margin-top: 20px;
+}
+.sec2 .container .cards .card .card-inner {
+  padding: 30px 10px;
+  width: 100%;
+}
+.sec2 .container .cards .card .card-inner button {
+  border: 1px solid rgb(211, 43, 43);
+  padding: 10px 20px;
+  color: gray;
+  transition: 0.5s;
+  margin-left: 80px;
+  background-color: white;
+}
+.sec2 .container .cards .card .card-inner button:hover {
+  background-color: rgb(211, 43, 43);
+  color: white;
+}
+.sec2 .container .cards .card .card-inner .flaticon {
+  margin-left: 150px;
+}
+.sec2 .container .cards .card .card-inner .flaticon img {
+  border: 1px solid red;
+  padding: 20px;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.sec4 .pics .pic img {
+  transition: 0.5s;
+}
+.sec4 .pics .pic img:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  height: 20vh;
+  background-color: rgb(41, 39, 39);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+footer p {
+  text-align: center;
+  color: white;
+}/*# sourceMappingURL=style.css.map */

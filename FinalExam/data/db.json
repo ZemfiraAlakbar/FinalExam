@@ -1,0 +1,48 @@
+{
+  "Products": [
+    {
+      "job": "WEB DEVELOPMENT",
+      "desc": "Lorem ipsum dolor sit amet, consect et adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+      "id": 1,
+      "price": 250,
+      "image": "./images/edit.png"
+    },
+    {
+      "job": "PHOTOGRAPHY",
+      "desc": "Lorem ipsum dolor sit amet, consect et adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+      "id": 2,
+      "price": 150,
+      "image": "./images/photo-camera-interface-symbol-for-button (1).png"
+    },
+    {
+      "job": "DIGITAL MEDIA",
+      "desc": "Lorem ipsum dolor sit amet, consect et adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+      "id": 3,
+      "price": 175,
+      "image": "./images/social-media.png"
+    },
+    {
+      "job": "Books",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+      "price": "140",
+      "image": "./images/edit.png",
+      "id": 4
+    }
+  ],
+  "Fav": [
+    {
+      "job": "WEB DEVELOPMENT",
+      "desc": "Lorem ipsum dolor sit amet, consect et adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+      "id": 1,
+      "price": 250,
+      "image": "./images/edit.png"
+    },
+    {
+      "job": "PHOTOGRAPHY",
+      "desc": "Lorem ipsum dolor sit amet, consect et adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+      "id": 2,
+      "price": 150,
+      "image": "./images/photo-camera-interface-symbol-for-button (1).png"
+    }
+  ]
+}

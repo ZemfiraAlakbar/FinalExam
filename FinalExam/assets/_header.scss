@@ -1,0 +1,49 @@
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    // background-color: rgba(0,0,0,0.1);
+    padding: 20px 0;
+    .container{
+        .head{
+            display: flex;
+            justify-content: space-between;
+            nav{
+              ul{
+                display: flex;
+                column-gap: 20px;
+                li{
+                    a{
+                        color: white;
+                        font-weight: 500;
+                        font-size: small;
+                        transition: 0.5s;
+                        &:hover{
+                            color: rgb(211, 43, 43);
+                        }
+                    }
+                }
+              }
+            }
+            .fa-bars{
+                color: white;
+                display: none;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 767px){
+    header {
+        .container{
+            .head{
+                nav {
+                    display: none;
+                }
+                .fa-bars{
+                    display: block;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}
